@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Solicitudes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- <script src="jquery-2.1.4.min.js"></script> -->
+  <script src="js/js.js"></script>
+  <meta charset="utf-8">
+</head>
+<body>
+
+<!--Inicio del topbar -->
+<div class="topbar">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">     
+        <p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i></p>
+        <p class="pull-right"><i class="fa fa-phone"></i>Tel (1) 223-483-732</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Fin del topbar -->
+
+<!-- start header -->
+  <header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="inde.html"><img src="img/logo.png" width="400px" height="50px" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Inicio</a></li>   
+                        <li><a href="Empleado.php">Empleado</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+  </header>
+  <!-- end header -->
+
+  <section id="inner-headline">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="pageTitle">Solicitudes</h2>
+      </div>
+    </div>
+  </div>
+  </section>
+
+   <!-- Form itself -->
+<form action="habitacion1.php" method="POST">
+ <div class="control-group">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+      <h3>Ingrese El numero de Ticket</h3>
+            <div class="controls">
+              <p>Ticket a Procesar:</p><input type="text" class="form-control" placeholder="SVTHP-123 - - - - - - -"name="cedula" required minlength="7" maxlength="8" autocomplete="off">
+          <p class="help-block"></p>
+          <button type="submit" class="btn btn-default">Ejecutar</button>
+      </div>
+
+<!--Llamado de librerias -->
+<script type="text/javascript" src="http://localhost/Proyecto-BD-ADS/js/jquery-2.1.4.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+<script src="jquery-2.1.4.min.js"></script>
+<script src="js/js.js"></script>
+<!--Fin de llamado de libreria -->
+</body>
+</html>
